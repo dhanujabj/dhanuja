@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
-      <Routes>
+       <Routes>
         <Route path='/'element={<Home />}></Route>
         <Route path='/add' element={<Addemployee />}></Route>
-      </Routes>
+      </Routes> 
       </BrowserRouter>
       
     </div>
